@@ -1,0 +1,90 @@
+body {
+    font-family: Arial;
+}
+
+.body-early-morning {
+    background-color: #080563;
+    color: white;
+}
+
+.body-morning {
+    background-color: rgb(96, 159, 255);
+}
+
+.body-afternoon {
+    background-color: #028df7
+}
+
+.body-late-afternoon {
+    background-color: #ed7e00;
+}
+
+.body-evening {
+    background-color: black;
+    color: white;
+}
+
+.input-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 80vh;
+    width: 90vh;
+    box-shadow: 5px 5px  5px 1px;
+    border-radius: 20px;
+    align-self: center;
+    justify-self: center;
+    background-color: rgb(255, 255, 255);
+    font-size: 50px;
+}
+
+.input-section-early-morning {
+    background-color: #110f50;
+}
+
+.input-section-morning {
+    background-color: rgb(90, 142, 255);
+}
+
+.input-section-afternoon {
+    background-color: #30a5ff;
+}
+
+.input-section-late-afternoon {
+    background-color: #e36505;
+}
+
+.input-section-evening {
+    background-color: rgb(49, 49, 49);
+}
+
+img {
+    height: 75px;
+}
+
+button {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    padding: 50px;
+    border-radius: 50%;
+    border-style: none;
+    cursor: pointer;
+}
+
+.date-style {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.reset-score-button {
+    justify-self: center;
+    align-self: center;
+    background-color: #f44336;
+}
+
+.reset-score-button:hover {
+    background-color: #d32f2f;
+}
